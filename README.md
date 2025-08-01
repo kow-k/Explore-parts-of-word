@@ -64,4 +64,10 @@ The classfication between nouns and non-nouns is made (too) simply in that nouns
 
 # Results
 
-[Irish major word parts](results/Irish/spell)
+[English major parts of spell (A, N, V)](results/English/spell)
+[English major parts of spell (A, N, V)](results/English/sound)
+
+[German major parts of spell (N vs non_N)](results/Germa/spell/)
+[German major parts of sound (N vs non_N)](results/Germa/sound/)
+
+[Irish major parts of spell (A, N, V)](results/Irish/spell)
