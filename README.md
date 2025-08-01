@@ -8,7 +8,7 @@ Scripts for analysis. word-level analysis only
 
 1. [Unsupervised "parts-of-word" extraction](explore-parts-of-word.ipynb)
 
-Running was confirmed on Python 3.9, 3.10, and 3.11.
+Running was confirmed on Python 3.10, 3.11, and 3.12.
 
 ## Important Parameters:
 
