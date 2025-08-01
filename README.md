@@ -2,6 +2,32 @@
 
 Data and scripts for analysis used for Unsupervised extraction of components of word spell and pronunciation,
 
+# Scripts for data analysis
+
+Scripts for analysis. word-level analysis only
+
+1. [Unsupervised "parts-of-word" extraction](explore-parts-of-word.ipynb)
+
+Running was confirmed on Python 3.9, 3.10, and 3.11.
+
+## Important Parameters:
+
+0. **doc_type** [string]: either "spell" or "sound"
+1. **max_doc_size** [integer]: maximum character length for docs to process
+2. **min_doc_size** [integer]: minimum character length for docs to process
+3. **target_lang_key** [string]: a selector for target language name
+4. **selects_word_class** [boolean]: flag for POS-aware processing
+5. **selects_gender** [boolean]: flag for gender-aware processing
+6. **source_sampling** [boolean]: a flag to perform sampling
+
+Other paramers used are not recommended to modify. Do so at your own risk.
+
+## Prerequisites
+
+Needed Python packages
+
+possibly Cython
+
 # Data
 
 ## English
@@ -30,31 +56,11 @@ The "data1" directory is a copy of the directory of the same name provided at [o
 
 The classfication between nouns and non-nouns is made (too) simply in that nouns are those words that start with a capital letter and non-nouns are those that do not, without using any lexcial resources.
 
-# Scripts for data analysis
+## Irish
 
-Scripts for analysis. word-level analysis only
-
-1. [Unsupervised "parts-of-word" extraction](explore-parts-of-word.ipynb)
-
-Running was confirmed on Python 3.9, 3.10, and 3.11.
-
-## Important Parameters:
-
-0. **doc_type** [string]: either "spell" or "sound"
-1. **max_doc_size** [integer]: maximum character length for docs to process
-2. **min_doc_size** [integer]: minimum character length for docs to process
-3. **target_lang_key** [string]: a selector for target language name
-4. **selects_word_class** [boolean]: flag for POS-aware processing
-5. **selects_gender** [boolean]: flag for gender-aware processing
-6. **source_sampling** [boolean]: a flag to perform sampling
-
-Other paramers used are not recommended to modify. Do so at your own risk.
-
-## Prerequisites
-
-Needed Python packages
-
-possibly Cython
+1. [Irish adjevtives (spell)](data/irish/irish-spell-A_only.csv)
+1. [Irish nouns (spell)](data/irish/irish-spell-N_only.csv)
+1. [Irish verbs (spell)](data/irish/irish-spell-V_only.csv)
 
 # Results
 
