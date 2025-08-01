@@ -6,7 +6,7 @@ Data and scripts for analysis used for Unsupervised extraction of components of 
 
 Scripts for analysis. word-level analysis only
 
-1. [Unsupervised "parts-of-word" extraction](explore-parts-of-word.ipynb)
+1. [character $n$-gram-based "parts-of-word" extraction](explore-parts-of-word.ipynb)
 
 Running was confirmed on Python 3.10, 3.11, and 3.12.
 
