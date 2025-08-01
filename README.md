@@ -58,7 +58,7 @@ The classfication between nouns and non-nouns is made (too) simply in that nouns
 
 ## Irish
 
-1. [Irish adjevtives (spell)](data/irish/irish-spell-A_only.csv)
+1. [Irish adjectives (spell)](data/irish/irish-spell-A_only.csv)
 1. [Irish nouns (spell)](data/irish/irish-spell-N_only.csv)
 1. [Irish verbs (spell)](data/irish/irish-spell-V_only.csv)
 
