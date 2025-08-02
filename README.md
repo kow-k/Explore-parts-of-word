@@ -62,6 +62,12 @@ The classfication between nouns and non-nouns is made (too) simply in that nouns
 1. [Irish nouns (spell)](data/irish/irish-spell-N_only.csv)
 1. [Irish verbs (spell)](data/irish/irish-spell-V_only.csv)
 
+## Welsh
+
+1. [Welsh adjectives (spell)](data/welsh/welsh-spell-A_only.csv)
+1. [Welsh nouns (spell)](data/welsh/welsh-spell-N_only.csv)
+1. [Welsh verbs (spell)](data/welsh/welsh-spell-V_only.csv)
+
 # Results
 
 [English major parts of spell (A, N, V)](results/English/spell)
@@ -71,3 +77,5 @@ The classfication between nouns and non-nouns is made (too) simply in that nouns
 [German major parts of sound (N vs non_N)](results/Germa/sound/)
 
 [Irish major parts of spell (A, N, V)](results/Irish/spell)
+
+[Welsh major parts of spell (A, N, V)](results/Welsh/spell)
