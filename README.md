@@ -59,14 +59,14 @@ The classfication between nouns and non-nouns is made (too) simply in that nouns
 ## Irish
 
 1. [Irish adjectives (spell)](data/irish/irish-spell-A_only.csv)
-1. [Irish nouns (spell)](data/irish/irish-spell-N_only.csv)
-1. [Irish verbs (spell)](data/irish/irish-spell-V_only.csv)
+2. [Irish nouns (spell)](data/irish/irish-spell-N_only.csv)
+3. [Irish verbs (spell)](data/irish/irish-spell-V_only.csv)
 
 ## Welsh
 
 1. [Welsh adjectives (spell)](data/welsh/welsh-spell-A_only.csv)
-1. [Welsh nouns (spell)](data/welsh/welsh-spell-N_only.csv)
-1. [Welsh verbs (spell)](data/welsh/welsh-spell-V_only.csv)
+2. [Welsh nouns (spell)](data/welsh/welsh-spell-N_only.csv)
+3. [Welsh verbs (spell)](data/welsh/welsh-spell-V_only.csv)
 
 # Results
 
