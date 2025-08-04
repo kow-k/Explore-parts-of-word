@@ -62,11 +62,21 @@ The classfication between nouns and non-nouns is made (too) simply in that nouns
 2. [Irish nouns (spell)](data/irish/irish-spell-N_only.csv)
 3. [Irish verbs (spell)](data/irish/irish-spell-V_only.csv)
 
+There are .csv versions of the .xml files provided at [Irish National Morphology Database/Bunachar Náisiúnta Moirfeolaíochta BuNaMo](https://github.com/michmech/BuNaMo)
+
 ## Welsh
 
-1. [Welsh adjectives (spell)](data/welsh/welsh-spell-A_only.csv)
-2. [Welsh nouns (spell)](data/welsh/welsh-spell-N_only.csv)
-3. [Welsh verbs (spell)](data/welsh/welsh-spell-V_only.csv)
+1. [Welsh adjectives (spell)](data/welsh/welsh-spell-A_only_w_gender.csv)
+2. [Welsh nouns (spell)](data/welsh/welsh-spell-N_only_w_gender.csv)
+3. [Welsh verbs (spell)](data/welsh/welsh-spell-V_only_w_inflect.csv)
+4. [Welsh prepositions (spell)](data/welsh/welsh-spell-P_only.csv)
+5. [Welsh adverbs (spell)](data/welsh/welsh-spell-R_only.csv)
+
+Construction method:
+
+1. Welsh texts pg3500, pg9842, pg22528, pg57981, pg67424 and pg68973 from [Project Gutenberg](http://www.gutenberg.org/) were tagged using [CyTag](https://github.com/CorCenCC/CyTag).
+2. Tags were translated into English and a database D of the used words was compiled from it.
+3. D was split into 1, 2, 3, 4 and 5 according to word classes.
 
 # Results
 
